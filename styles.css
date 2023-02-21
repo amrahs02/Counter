@@ -69,13 +69,31 @@ h1{
 
 @media (max-width:800px){
     .container{
-        width: 100%;
-        padding: 150px 0;
+        width: 85%;
+        height: 90%;
+        background-color: rgb(111, 137, 147);
         margin: 0;
-        /* height: 500px; */
+    }
+    body{
+    }
+    .about{
+        padding: 400px 0 10px 0;
     }
 }
 .about{
     color: white;
-    padding: 20px;
+    /* padding: 400px 0 20px 0; */
+}
+@media (max-width:350) {
+    .container{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(111, 137, 147);
+        margin: 0;
+    }
+    body{
+    }
+    .about{
+        padding: 400px 0 10px 0;
+    }
 }
